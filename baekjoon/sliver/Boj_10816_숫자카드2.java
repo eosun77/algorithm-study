@@ -18,7 +18,6 @@ public class Boj_10816_숫자카드2 {
 			map.put(num, map.getOrDefault(num, 0)+1);
 		}
 		int M = Integer.parseInt(in.readLine());
-		int[] nums = new int[M];
 		st = new StringTokenizer(in.readLine(), " ");
 		for(int i=0;i<M;i++) {
 			int num = Integer.parseInt(st.nextToken());
