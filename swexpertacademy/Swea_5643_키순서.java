@@ -3,12 +3,9 @@ package swexpertacademy;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
-=======
->>>>>>> aadbb451ad37e3ea6ef27b3cbcd6df6ca1504cf3
 import java.util.StringTokenizer;
 
 public class Swea_5643_키순서 {
@@ -16,7 +13,6 @@ public class Swea_5643_키순서 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(in.readLine());
-<<<<<<< HEAD
 		StringBuilder sb = new StringBuilder();
 		for(int tc=1;tc<=T;tc++) {
 			int N = Integer.parseInt(in.readLine());
@@ -27,18 +23,11 @@ public class Swea_5643_키순서 {
 				smallList.add(new ArrayList<>());
 				bigList.add(new ArrayList<>());
 			}
-=======
-		
-		for(int tc=1;tc<=T;tc++) {
-			int N = Integer.parseInt(in.readLine());
-			int M = Integer.parseInt(in.readLine());
-			int[][] rank = new int[N+1][2]; 
->>>>>>> aadbb451ad37e3ea6ef27b3cbcd6df6ca1504cf3
+
 			for(int i=0;i<M;i++) {
 				StringTokenizer st = new StringTokenizer(in.readLine(), " ");
 				int x = Integer.parseInt(st.nextToken());
 				int y = Integer.parseInt(st.nextToken());
-<<<<<<< HEAD
 				smallList.get(x).add(y);
 				bigList.get(y).add(x);
 			}
@@ -76,9 +65,5 @@ public class Swea_5643_키순서 {
 			sb.append("#").append(tc).append(" ").append(ans).append("\n");
 		}
 		System.out.println(sb);
-=======
-			}
-		}
->>>>>>> aadbb451ad37e3ea6ef27b3cbcd6df6ca1504cf3
 	}
 }
