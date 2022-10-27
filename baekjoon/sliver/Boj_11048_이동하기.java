@@ -1,7 +1,6 @@
 package baekjoon.sliver;
 
 import java.io.BufferedReader;
-<<<<<<< HEAD
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -28,14 +27,5 @@ public class Boj_11048_이동하기 {
 			}
 		}
 		System.out.println(dp[N][M]);
-=======
-import java.io.InputStreamReader;
-
-public class Boj_11048_이동하기 {
-
-	public static void main(String[] args) {
-		
-		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
->>>>>>> d8dd7ff0c6ea2c6d9a0af4657317452b26e6309a
 	}
 }
